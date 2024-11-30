@@ -1,0 +1,14 @@
++ propriete;type;entite;contrainte
++ nom_modele;VARCHAR (255);guitar;FOREIGN KEY 
++ nb_cordes;INT(13);guitar;NOT NULL
++ nb_micros;INT(13);guitar;NOT NULL
++ matiere_corps;VARCHAR (255);guitare;NOT NULL
++ matiere_table;VARCHAR (255);guitare;NOT NULL 
++ matiere_manche;VARCHAR (255);guitare;NOT NULL 
++ numero;INT(13);devis;PRIMARY KEY 
++ nom_client;VARCHAR (255);devis;NOT NULL 
++ nom_modele;VARCHAR (255);devis;NOT NULL 
++ date_envoie;DATE;facture;NOT NULL 
++ numero_devis;VARCHAR (255);facture;FOREIGN KEY 
++ facture_payee;BOOLEAN;facture;NOT NULL 
++ num_facture;INT;facture;FOREIGN KEY   
