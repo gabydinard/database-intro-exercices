@@ -1,0 +1,12 @@
++ propriete;type;entite;contrainte
++ id_contact;INT(13);contac;PRIMARY KEY 
++ age;INT(13);contact;NOT NULL
++ nom;INT(13);conatct;NOT NULL
++ prenom;VARCHAR (255);contact;NOT NULL 
++ mail;VARCHAR (255);contact;NOT NULL 
++ telephone;INT(13);contact;NOT NULL 
++ message;TEXT;contact;NOT NULL 
++ sujet;VARCHAR (255);contact;NOT NULL 
++ cours;VARCHAR (255);contact;NOT NULL
++ tranche_age;VARCHAR (255);contact;NOT NULL
++ date_contact;DATE;contact;NOT NULL
