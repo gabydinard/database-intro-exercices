@@ -13,5 +13,5 @@
     sujet VARCHAR(255) NOT NULL
     cours VARCHAR(255) NOT NULL
     tranche_age VARCHAR(255) NOT NULL 
-    date_contact DATE NOT NULL DEFAULT 
+    date_contact DATE NOT NULL DEFAULT CURRENT_TIMESTAMP()
 );
